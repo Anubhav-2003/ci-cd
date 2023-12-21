@@ -11,7 +11,6 @@ app.use(express.json());
 
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
-console.log("Hello")
 
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
